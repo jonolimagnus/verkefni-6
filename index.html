@@ -24,21 +24,41 @@ title: home
         <input type="date" name="birthday" required="" /><br><br>
         
         <label for="email-address">Emailið þitt</label><br>
-        <input type="email" name="email-address" placeholder="name@domain.com" required="" /><br><br>
+        <input type="email" name="email-address" placeholder="name@domain.com" required /><br><br>
         
         <label for="phone-number">Sími</label><br>
         <input type="tel" name="phone-number" placeholder="123 4567" required="" /><br><br>
 
-        <label for="ár">ár
+        <label>
+        númer af áföngum teknir í framhaldskóla
+          <select name="quantity" required>
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="fleiri">fleiri</option>
+          </select>
+        </label><br><br>
+
+        <label for="ár">ár</label><br>
           <input type="checkbox" name="ár" value="over-18" checked> ertu yfir 18
           <input type="checkbox" name="ár" value="under-18" /> ertu undir 18
-        </label><br>
+        <br><br>
 
         <label for="lit">af þessum liturm hvern likar þér mest
         <input type="radio" name="color" value="black" checked> Svartur
         <input type="radio" name="color" value="yellow"> Gulur
         <input type="radio" name="color" value="blue"> Blár
-        </label>
+        </label><br><br>
+
+        <label fro="comment">athugasemd</label><br>
+        <textarea name="comment" placeholder="settu inn athugasemd"></textarea><br><br>
       </fieldset>    
     </form>
 			
@@ -66,7 +86,7 @@ title: home
     </tr>
     <tr role="row">
       <td role="cell">Jokey</td>
-      <td role="cell">Smurf</td>
+      <td role="cell">Surf</td>
       <td role="cell">Giving Exploding Presents</td>
 
     </tr>
