@@ -38,6 +38,11 @@ fieldset {
 input {
   border-radius: 5px;
   margin: 4px;
+ 
+}
+
+.texti {
+  width: 400px;
 }
 
 textarea {
@@ -256,6 +261,9 @@ div {
   .wrapper{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+  }
+  .texti {
+  width: 200px
   }
 
 }

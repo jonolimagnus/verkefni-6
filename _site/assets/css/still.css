@@ -30,6 +30,9 @@ input {
   border-radius: 5px;
   margin: 4px; }
 
+.texti {
+  width: 400px; }
+
 textarea {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
@@ -216,7 +219,10 @@ div {
 @media (max-width: 600px) {
   .wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; } }
+    grid-template-columns: 1fr 2fr 1fr; }
+
+  .texti {
+    width: 200px; } }
 @media (max-width: 200px) {
   .wrapper {
     display: grid;
